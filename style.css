@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.slider {
+    margin: 40px auto;
+    width: 70%;
+}
+
+#img-slider {
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.img-info {
+    position: absolute;
+    z-index: 122;
+    color: rgb(26, 15, 15);
+    right: 0;
+    padding: 5px 15px;
+    font-size: 19px;
+    background-color: bisque;
+}
+
+#img-slider img {
+    width: 100%;
+    height: 500px;
+    
+}
+
+.toggole {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
