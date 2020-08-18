@@ -7,7 +7,7 @@
 Install the dependencies
 
 ```sh
-$ npm install
+ npm install
 ```
 
 
@@ -15,5 +15,5 @@ $ npm install
 To serve in the browser  - Runs webpack-dev-server
 
 ```sh
-$ npm run start
+ npm run start
 ```
